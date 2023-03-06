@@ -1,0 +1,33 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiyushDuggal-source/full-stack-BE.git"
+  },
+  "author": "Piyush Duggal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiyushDuggal-source/full-stack-BE/issues"
+  },
+  "homepage": "https://github.com/PiyushDuggal-source/full-stack-BE#readme",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/express-session": "^1.17.6",
+    "axios": "^1.3.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "env-var": "^7.3.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.0",
+    "nodemon": "^2.0.21",
+    "yup": "^1.0.2"
+  }
+}
